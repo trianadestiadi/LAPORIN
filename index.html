@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAPORIN</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/18a120ed20.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/logolaporin.png"
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logolaporin.png" alt="Logo"> 
+            </div>
+            <div class="nama">
+                <h1>LAPORIN</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="#laporin">Laporin</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="hero-section">
+        <div class="hero-content"> 
+          <h1>Layanan Pengaduan UNPAM!</h1>
+          <p>Sampaikan laporan Anda langsung kepada Kami</p>
+        </div>
+        <div class="hero-image">
+          <img src="images/unpam.png"/>
+        </div>
+      </div>
+
+      <div class="contact-container" id="laporin">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Sampaikan Laporan Anda</h2>
+            </div>
+            <input type="hidden" name="access_key" value="cace27fe-3955-4f11-a44a-f0054caa5b4e">
+            <input type="text" name="name" placeholder="Nama" class="contact-inputs" required>
+            <input type="email" name="name" placeholder="Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="YOUR MESSAGE" class="contact-inputs" required></textarea>
+            <button type="submit">SUBMIT</button>
+        </form>
+        <div class="contact-right">
+            <img src="images/logolaporin.png">
+        </div>
+    </div>
+    <footer>
+        <div class="row">
+          <div class="col">
+            <a href="index.html"><img src="images/logolaporin.png" alt="Logo" class="logofooter"></a>
+          </div>
+          <div class="col">
+            <h3>Office</h3>
+            <p>jl.viktor</p>
+            <p>tangsel</p>
+            <p class="email-id">laporinunpam@gmail.com</p>
+            <h4>0213-3344-4888</h4>
+          </div>
+          <div class="col">
+            <h3>links</h3>
+            <ul>
+                <li><a href="">Beranda</a></li>
+                <li><a href="">Laporin</a></li>
+                <li><a href="">Tentang</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Saran</h3>
+            <form>
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" placeholder="enter your email id" required>
+                <button type="submit"><i class="fa-solid fa-arrow-right fa-xl" style="color: white;"></i></button>
+            </form>
+            <div class="social-icons">
+                <i class="fa-brands fa-instagram fa-lg" style="color: #000000;"></i>
+                <i class="fa-brands fa-facebook fa-lg" style="color: #000000;"></i>
+                <i class="fa-brands fa-tiktok fa-lg" style="color: #000000;"></i>
+                <i class="fa-brands fa-twitter fa-lg" style="color: #000000;"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
